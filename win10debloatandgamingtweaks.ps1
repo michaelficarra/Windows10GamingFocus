@@ -32,16 +32,16 @@ $tweaks = @(
 	"CreateRestorePoint",
 	
 	### Chris Titus Tech Additions
-	"SlowUpdatesTweaks",
+	#"SlowUpdatesTweaks",
 	"Write-ColorOutput", #Utilizing Colors for better Warning messages!
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallMVC", #DaddyMadu install Microsoft Visualstudio required for HPET service!
+	#"InstallMVC", #DaddyMadu install Microsoft Visualstudio required for HPET service!
 	"Install7Zip",
 	"InstallChocoUpdates",
-	"EnableUlimatePower",    # DaddyMadu don't change order it will break other functions! just disable if you want with #
+	#"EnableUlimatePower",    # DaddyMadu don't change order it will break other functions! just disable if you want with #
 	### DaddyMadu Windows Defender Settings! Don't Change Order Just Disable with # If You Don't want it ###
-	"MSIMode",                       #Enable Or Disable MSI Mode For Supported Cards, WARNING ENABLING MSI MODE MIGHT CRUSH YOUR SYSTEM! IF IT HAPPENS PLEASE RESTORE LAST WORKING SYSTEM RESTORE POINT AND DON'T ENABLE MSI MODE ON THIS SYSTEM AGAIN!
-	"askDefender",
+	#"MSIMode",                       #Enable Or Disable MSI Mode For Supported Cards, WARNING ENABLING MSI MODE MIGHT CRUSH YOUR SYSTEM! IF IT HAPPENS PLEASE RESTORE LAST WORKING SYSTEM RESTORE POINT AND DON'T ENABLE MSI MODE ON THIS SYSTEM AGAIN!
+	#"askDefender",
 	"DorEOneDrive",                  #Option to Install Or Uninstall Microsoft One Drive!
 	"askXBOX",
 	"Windows11Extra",
@@ -74,33 +74,33 @@ $tweaks = @(
 	# "DisableSMBServer",           # "EnableSMBServer",
 	# "DisableLLMNR",               # "EnableLLMNR",
 	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
-	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
-	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
+	#"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
+	#"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
+	#"EnableF8BootMenu",             # "DisableF8BootMenu",
 	#"SetDEPOptOut",                 # "SetDEPOptIn",
 	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
 	#"DisableScriptHost",            # "EnableScriptHost",
 	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
-	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
+	#"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
 	### Service Tweaks ###
 	"EnableUpdateMSRT",          # "EnableUpdateMSRT",    #"DisableUpdateMSRT",
 	"EnableUpdateDriver",        # "EnableUpdateDriver",  #"DisableUpdateDriver",
 	"DisableUpdateRestart",         # "EnableUpdateRestart",
 	"DisableHomeGroups",          # "EnableHomeGroups",
-	"EnableSharedExperiences",     # "SharedExperiences",
-	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
+	#"EnableSharedExperiences",     # "SharedExperiences",
+	#"DisableRemoteAssistance",      # "EnableRemoteAssistance",
+	#"EnableRemoteDesktop",          # "DisableRemoteDesktop",
 	"DisableAutoplay",              # "EnableAutoplay",
 	"DisableAutorun",               # "EnableAutorun",
 	"DisableStorageSense",        # "EnableStorageSense",
-	"DisableDefragmentation",     # "EnableDefragmentation",
+	#"DisableDefragmentation",     # "EnableDefragmentation",
 	"DisableSuperfetch",          # "EnableSuperfetch",
 	"EnableIndexing",
-	"SetBIOSTimeUTC",         #"SetBIOSTimeUTC", #"SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",
+	#"SetBIOSTimeUTC",         #"SetBIOSTimeUTC", #"SetBIOSTimeLocal",
+	#"DisableHibernation",		# "EnableHibernation",
 	"EnableSleepButton",		# "DisableSleepButton",         
 	"DisableSleepTimeout",        # "EnableSleepTimeout",
-	"DisableFastStartup",         # "EnableFastStartup",
+	#"DisableFastStartup",         # "EnableFastStartup",
 	"DISGaming",
     ### Windows Tweaks ###
 	"PowerThrottlingOff",
@@ -121,16 +121,16 @@ $tweaks = @(
 	### UI Tweaks ###
 	"EnableActionCenter",          # "DisableActionCenter",
 	"EnableLockScreen",				# "DisableLockScreen",
-	"EnableLockScreenRS1",			# "DisableLockScreenRS1",
+	#"EnableLockScreenRS1",			# "DisableLockScreenRS1",
 	# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
 	# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
 	"DisableStickyKeys",            # "EnableStickyKeys",
 	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
-	"HideTaskbarSearch",
+	#"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
+	#"HideTaskbarSearch",
 	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
-	"HideTaskView",                 # "ShowTaskView",
+	#"HideTaskView",                 # "ShowTaskView",
 	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
 	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
 	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
@@ -140,11 +140,11 @@ $tweaks = @(
 	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
 	"SetVisualFXPerformance",     # "SetVisualFXAppearance",
 	# "AddENKeyboard",              # "RemoveENKeyboard",
-	"EnableNumlock",             	# "DisableNumlock",
-	"EnableDarkMode",				# "DisableDarkMode",
+	#"EnableNumlock",             	# "DisableNumlock",
+	#"EnableDarkMode",				# "DisableDarkMode",
 	### Explorer UI Tweaks ###
 	"ShowKnownExtensions",          # "HideKnownExtensions",
-	"HideHiddenFiles",
+	"ShowHiddenFiles", # "HideHiddenFiles",
 	"HideSyncNotifications"         # "ShowSyncNotifications",
 	"HideRecentShortcuts",          # "ShowRecentShortcuts",
 	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
@@ -158,14 +158,14 @@ $tweaks = @(
 	#"UninstallMediaPlayer",         #"InstallMediaPlayer",
 	"UninstallInternetExplorer",  # "InstallInternetExplorer",
 	"UninstallWorkFolders",       # "InstallWorkFolders",
-	"UninstallLinuxSubsystem",      # "UninstallLinuxSubsystem",     #"InstallLinuxSubsystem",
+	#"UninstallLinuxSubsystem",      # "UninstallLinuxSubsystem",     #"InstallLinuxSubsystem",
 	# "InstallHyperV",              # "UninstallHyperV",
 	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
 	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 	"InstallPDFPrinter",		# "UninstallPDFPrinter",
 	"SVCHostTweak",
 	### Unpinning ###
-	"UnpinStartMenuTiles",
+	#"UnpinStartMenuTiles",
         ### DaddyMadu Quality Of Life Tweaks ###
 	"QOL",
         ### DaddyMadu Gaming Tweaks ###
@@ -174,7 +174,7 @@ $tweaks = @(
 	"ApplyPCOptimizations",
 	"RawMouseInput",
 	"DetectnApplyMouseFIX",
-	"DisableHPET",
+	#"DisableHPET",
 	"EnableGameMode",
 	"EnableHAGS",
 	"DisableCoreParking",
@@ -186,186 +186,19 @@ $tweaks = @(
 	"DecreaseMKBuffer",
 	"StophighDPC",
 	"NvidiaTweaks",
-	"AMDGPUTweaks",
- 	"NetworkAdapterRSS",
+	#"AMDGPUTweaks",
+ 	#"NetworkAdapterRSS",
 	"NetworkOptimizations",
- 	"DisableNagle",
+ 	#"DisableNagle",
 	"RemoveEdit3D",
 	"FixURLext",  # fix issue with games shortcut that created by games lunchers turned white!
-	"UltimateCleaner",
-	"Finished"
+	#"UltimateCleaner",
+	#"Finished"
 	### Auxiliary Functions ###
 )
 
 #Mobile Devices presets.
 $mobiletweaks = @(
-	### Require administrator privileges ###
-	"RequireAdmin",
-	"CreateRestorePoint",
-	### Chris Titus Tech Additions
-	"SlowUpdatesTweaks",
-	"Write-ColorOutput", #Utilizing Colors for better Warning messages!
-	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
-	"InstallMVC", #DaddyMadu install Microsoft Visualstudio required for HPET service!
-	"Install7Zip",
-	"InstallChocoUpdates",
-	"EnableUlimatePower",    # DaddyMadu don't change order it will break other functions! just disable if you want with #
-	### DaddyMadu Windows Defender Settings! Don't Change Order Just Disable with # If You Don't want it ###
-	"MSIMode",                       #Enable Or Disable MSI Mode For Supported Cards, WARNING ENABLING MSI MODE MIGHT CRUSH YOUR SYSTEM! IF IT HAPPENS PLEASE RESTORE LAST WORKING SYSTEM RESTORE POINT AND DON'T ENABLE MSI MODE ON THIS SYSTEM AGAIN!
-	"askDefender",
-	"DorEOneDrive",                  #Option to Install Or Uninstall Microsoft One Drive!
-	"askXBOX",
-	"Windows11Extra",
-	### Windows Apps
-	"DebloatAll",
-	### Privacy Tweaks ###
-	"DisableTelemetry",             # "EnableTelemetry",
-	"DisableWiFiSense",             # "EnableWiFiSense",
-	"DisableSmartScreen",         # "EnableSmartScreen",
-	"DisableWebSearch",             # "EnableWebSearch",
-	"DisableAppSuggestions",        # "EnableAppSuggestions",
-	"DisableActivityHistory",       # "EnableActivityHistory",
-	"EnableBackgroundApps",           #"DisableBackgroundApps",
-	"DisableLocationTracking",      # "EnableLocationTracking",
-	"DisableMapUpdates",            # "EnableMapUpdates",
-	"DisableFeedback",              # "EnableFeedback",
-	"DisableTailoredExperiences",   # "EnableTailoredExperiences",
-	"DisableAdvertisingID",         # "EnableAdvertisingID",
-	"DisableCortana",               # "EnableCortana",
-	"DisableErrorReporting",        # "EnableErrorReporting",
-	"SetP2PUpdateLocal",          # "SetP2PUpdateInternet",
-	"DisableDiagTrack",             # "EnableDiagTrack",
-	"DisableWAPPush",               # "EnableWAPPush",
-	"DisableNewsFeed",
-	### Security Tweaks ###
-	"SetUACLow",                  # "SetUACHigh",
-	# "EnableSharingMappedDrives",  # "DisableSharingMappedDrives",
-	# "DisableAdminShares",           # "EnableAdminShares",
-	"DisableSMB1",                # "EnableSMB1",
-	# "DisableSMBServer",           # "EnableSMBServer",
-	# "DisableLLMNR",               # "EnableLLMNR",
-	"SetCurrentNetworkPrivate",     # "SetCurrentNetworkPublic",
-	"SetUnknownNetworksPrivate",  # "SetUnknownNetworksPublic",
-	"DisableNetDevicesAutoInst",  # "EnableNetDevicesAutoInst",
-	"EnableF8BootMenu",             # "DisableF8BootMenu",
-	#"SetDEPOptOut",                 # "SetDEPOptIn",
-	# "EnableCIMemoryIntegrity",    # "DisableCIMemoryIntegrity",
-	#"DisableScriptHost",            # "EnableScriptHost",
-	#"EnableDotNetStrongCrypto",     # "DisableDotNetStrongCrypto",
-	"DisableMeltdownCompatFlag", # "EnableMeltdownCompatFlag"    
-	### Service Tweaks ###
-	"EnableUpdateMSRT",          # "EnableUpdateMSRT",    #"DisableUpdateMSRT",
-	"EnableUpdateDriver",        # "EnableUpdateDriver",  #"DisableUpdateDriver",
-	"DisableUpdateRestart",         # "EnableUpdateRestart",
-	"DisableHomeGroups",          # "EnableHomeGroups",
-	"EnableSharedExperiences",     # "SharedExperiences",
-	"DisableRemoteAssistance",      # "EnableRemoteAssistance",
-	"EnableRemoteDesktop",          # "DisableRemoteDesktop",
-	"DisableAutoplay",              # "EnableAutoplay",
-	"DisableAutorun",               # "EnableAutorun",
-	"DisableStorageSense",        # "EnableStorageSense",
-	"DisableDefragmentation",     # "EnableDefragmentation",
-	"DisableSuperfetch",          # "EnableSuperfetch",
-	"EnableIndexing",
-	"SetBIOSTimeUTC",         #"SetBIOSTimeUTC", #"SetBIOSTimeLocal",
-	"DisableHibernation",		# "EnableHibernation",
-	"EnableSleepButton",		# "DisableSleepButton",         
-	"DisableSleepTimeout",        # "EnableSleepTimeout",
-	"DisableFastStartup",         # "EnableFastStartup",
-	"DISGaming",
-    ### Windows Tweaks ###
-	"PowerThrottlingOff",
-	"Win32PrioritySeparation",
-	"DisableAERO",
-	"BSODdetails",
-	"Disablelivetiles",
-	"wallpaperquality",
-	"DisableShistory",
-	"Disableshortcutword",
-	"DisableMouseKKS",
-	"DisableTransparency",
-	"TurnOffSafeSearch",
-	"DisableCloudSearch",
-	"DisableDeviceHistory",
-	"DisableSearchHistroy",
-	"RemoveMeet",
-	### UI Tweaks ###
-	"EnableActionCenter",          # "DisableActionCenter",
-	"EnableLockScreen",				# "DisableLockScreen",
-	"EnableLockScreenRS1",			# "DisableLockScreenRS1",
-	# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
-	# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
-	"DisableStickyKeys",            # "EnableStickyKeys",
-	"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
-	"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
-	"DisableFileDeleteConfirm",	# "EnableFileDeleteConfirm",    
-	"HideTaskbarSearch",
-	#"ShowTaskbarSearchIcon",      # "ShowTaskbarSearchBox",
-	"HideTaskView",                 # "ShowTaskView",
-	# "ShowSmallTaskbarIcons",        # "ShowLargeTaskbarIcons",
-	# "SetTaskbarCombineWhenFull",    # "SetTaskbarCombineNever",     # "SetTaskbarCombineAlways",
-	"HideTaskbarPeopleIcon",        # "ShowTaskbarPeopleIcon",
-	#"HideTrayIcons",                #"ShowTrayIcons",
-	"DisableSearchAppInStore",      # "EnableSearchAppInStore",
-	"DisableNewAppPrompt",          # "EnableNewAppPrompt",
-	# "SetControlPanelSmallIcons",  # "SetControlPanelLargeIcons",  # "SetControlPanelCategories",
-	"SetVisualFXPerformance",     # "SetVisualFXAppearance",
-	# "AddENKeyboard",              # "RemoveENKeyboard",
-	"EnableNumlock",             	# "DisableNumlock",
-	"EnableDarkMode",				# "DisableDarkMode",
-	### Explorer UI Tweaks ###
-	"ShowKnownExtensions",          # "HideKnownExtensions",
-	"HideHiddenFiles",
-	"HideSyncNotifications"         # "ShowSyncNotifications",
-	"HideRecentShortcuts",          # "ShowRecentShortcuts",
-	"SetExplorerThisPC",            # "SetExplorerQuickAccess",
-	"ShowThisPCOnDesktop",          # "HideThisPCFromDesktop",
-	"ShowUserFolderOnDesktop",    # "HideUserFolderFromDesktop",
-	"Hide3DObjectsFromThisPC",      # "Show3DObjectsInThisPC",
-	"Hide3DObjectsFromExplorer",  # "Show3DObjectsInExplorer",
-	"EnableThumbnails",          # "EnableThumbnails", # "DisableThumbnails",
-	"EnableThumbsDB",              # "EnableThumbsDB", # "DisableThumbsDB", 
-	### Application Tweaks ###
-	#"UninstallMediaPlayer",         #"InstallMediaPlayer",
-	"UninstallInternetExplorer",  # "InstallInternetExplorer",
-	"UninstallWorkFolders",       # "InstallWorkFolders",
-	"UninstallLinuxSubsystem",      # "UninstallLinuxSubsystem",     #"InstallLinuxSubsystem",
-	# "InstallHyperV",              # "UninstallHyperV",
-	"SetPhotoViewerAssociation",    # "UnsetPhotoViewerAssociation",
-	"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
-	"InstallPDFPrinter",		# "UninstallPDFPrinter",
-	"SVCHostTweak",
-	### Unpinning ###
-	"UnpinStartMenuTiles",
-        ### DaddyMadu Quality Of Life Tweaks ###
-	"QOL",
-        ### DaddyMadu Gaming Tweaks ###
-	"FullscreenOptimizationFIX",
-	"GameOptimizationFIX",
-	"ApplyPCOptimizations",
-	"RawMouseInput",
-	"DetectnApplyMouseFIX",
-	"DisableHPET",
-	"EnableGameMode",
-	"EnableHAGS",
-	"DisableCoreParking",
-	"DisableDMA",
-	"DisablePKM",
-	"DisallowDIP",
-	"UseBigM",
-	"ForceContiguousM",
-	"DecreaseMKBuffer",
-	"StophighDPC",
-	"NvidiaTweaks",
-	"AMDGPUTweaks",
- 	"NetworkAdapterRSS",
-	"NetworkOptimizations",
- 	"DisableNagle",
-	"RemoveEdit3D",
-	"FixURLext",  # fix issue with games shortcut that created by games lunchers turned white!
-	"UltimateCleaner",
-	"Finished"
-	### Auxiliary Functions ###
 )
 
 #########
@@ -2519,7 +2352,7 @@ Function QOL {
 	New-Item -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" -ErrorAction SilentlyContinue | Out-Null
 	Set-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\UserProfileEngagement" -Name "ScoobeSystemSettingEnabled" -Type DWord -Value 0 | Out-Null -ErrorAction SilentlyContinue #disable annoying Get even more out of Windows
 	Set-ItemProperty -Path "HKCU:\Control Panel\Accessibility" -Name "DynamicScrollbars" -Type DWord -Value 0 #disable Hide Scroll bars
-	Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "SmoothScroll" -Type DWord -Value 0 #disable smooth scrolling 
+	#Set-ItemProperty -Path "HKCU:\Control Panel\Desktop" -Name "SmoothScroll" -Type DWord -Value 0 #disable smooth scrolling 
 	If ([System.Environment]::OSVersion.Version.Build -ge 22000) {
 	Set-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\Explorer" -Name "NoInstrumentation" -Type DWord -Value 1 #disable microsoft usertracking
 	} Else {
@@ -3454,7 +3287,7 @@ Clear-Host
     "*OneConnect*"
     "*People*"
     "*Print3D*"
-    "*RemoteDesktop*"
+    #"*RemoteDesktop*"
     "*SkypeApp*"
     "*Wallet*"
     "*Whiteboard*"
