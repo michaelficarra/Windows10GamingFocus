@@ -191,7 +191,7 @@ $tweaks = @(
 	"NetworkOptimizations",
  	#"DisableNagle",
 	"RemoveEdit3D",
-	"FixURLext",  # fix issue with games shortcut that created by games lunchers turned white!
+	"FixURLext"  # fix issue with games shortcut that created by games lunchers turned white!
 	#"UltimateCleaner",
 	#"Finished"
 	### Auxiliary Functions ###
